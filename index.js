@@ -32,15 +32,17 @@ function wrapGifts(gifts){
 }
 wrapGifts(gifts);*/
 
-/*function writeCards(array, event){
-    for (let i = 0; i < array.length; i++){
-        const myArray = [];
-        myArray.push(`Thank you, ${array[i]}, for the wonderful ${event} gift!`);
-        console.log(myArray);
-        
-    }
+const myArray = [];
 
-}*/
+function writeCards(array, event){
+    for (let i = 0; i < array.length; i++){
+        console.log()
+        myArray.push(`Thank you, ${array[i]}, for the wonderful ${event} gift!`);
+                
+    }
+    return myArray;
+
+}
 
 //writeCards(["Alex", "Jenny", "Ted", "Courtney"], "Christmas")
 
@@ -50,4 +52,4 @@ function countDown(i){
         i--;
     }
 }
-countDown(50)
+/*countDown(50)*/
